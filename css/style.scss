@@ -1,0 +1,58 @@
+html, body, .view {
+    height: 100%;
+    position: relative;
+}
+
+.view {
+    background: url("../img/background.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #74AF1F;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #74af1f;
+        ul.nav .nav-item a{
+            color: #FFF;
+        }
+    }
+}
+
+#contacto .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.stepper-vertical li.completed a .shield{
+  padding-top: 30px;
+}
